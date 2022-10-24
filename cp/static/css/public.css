@@ -1,0 +1,510 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.icon{
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.15em;
+    fill:currentColor;
+    overflow: hidden;
+}
+html{
+    font-size: 14px;
+    font-family: '微软雅黑';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  word-wrap:break-word;
+}
+body{
+    min-width: 1200px;
+}
+a{
+    text-decoration: none;
+    color: #535353;
+    transition: all .5s;
+}
+input{
+    outline: none;
+    border: 1px solid #ddd;
+    font-size: 12px;
+}
+textarea{
+    outline:none;
+    border: 1px solid #ddd;
+    resize:none;
+}
+select{
+    outline: none;
+    cursor: pointer;
+}
+ul li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.clearBox{
+    overflow: auto;
+    zoom:1;
+}
+.clearfix:after {
+    content: " ";
+    display: block;
+    height: 0;
+    clear: both;
+}
+.container{
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+}
+pre{
+    margin: 0;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+}
+button{
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+.opacityAnmite,.tranformAnmite{
+    transition: all .5s;
+}
+.opacityAnmite:hover{
+    opacity: .7;
+}
+.tranformAnmite:hover{
+    box-shadow: 0px 45px 116px 0px rgba(217,223,239,0.73);
+}
+/* .hasUnderline{
+    text-decoration: underline;
+}
+.underlineAnmite:hover{
+    text-decoration: underline;
+} */
+/* **********页面flex布局******** */
+.pageFlex{
+    display: flex;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+}
+.pageFlex.hasBetween{
+    justify-content: space-between;
+}
+.pageFlex.hasAround{
+    justify-content: space-around;
+}
+.pageFlex.hasCenter{
+    align-items: center;
+}
+/* **********************鼠标禁止样式************************* */
+.forbidCursor{              
+    cursor: not-allowed !important;
+}
+/* ***************分页符************* */
+.pageBreak{
+    margin-top: 10px;
+    overflow: hidden;
+    zoom: 1;
+}
+.pageBreak .myPageBreak{
+    float: right;
+}
+/* ************页面铺满屏幕盒子以及标题********** */
+.pageBodyBox{
+    width: 100%;
+    padding: 46px 0;
+}
+.pageBodyBox .pageBodyTitle .title1{
+    font-size: 28px;
+    text-align: center;
+    color: #2d2d2d;
+    line-height: 28px;
+}
+.pageBodyBox .pageBodyTitle .title2{
+    font-size: 14px;
+    text-align: center;
+    color: #7b7b7b;
+    line-height: 14px;
+    letter-spacing: .5px;
+    margin-top: 22px;
+    margin-bottom: 40px;
+}
+/* ******************页面头部背景图片************* */
+#banner{
+    height: 560px;
+    padding: 0;
+    background-size: 100% 100% ;
+    padding-top: 180px;
+}
+#banner .title1{
+    font-size: 28px;
+}
+#banner .title1 .videoBtn{
+    padding: 0 12px;
+    height: 28px;
+    line-height: 28px;
+    background-color: #d8d8d8;
+    text-align: center;
+    color: #181818;
+    font-size: 12px;
+    cursor: pointer;
+    margin-left: 8px;
+}
+#banner .title1 .videoBtn i{
+    margin-right: 7px;
+    font-size: 14px;
+}
+#banner .title2{
+    color: #7b7b7b;
+    font-size: 16px;
+    line-height: 32px;
+}
+#banner.white .title1{
+    color: #fff;
+    align-items: center;
+}
+#banner.white .title1 .desc{
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    padding: 13px 14px;
+    font-size: 15px;
+    margin-left: 17px;
+    line-height: 13px;
+}
+#banner.white .title2{
+    opacity: 0.83;
+    font-size: 14px;
+    color: #ffffff;
+    line-height: 32px;
+    margin: 22px 0 37px 0;
+    width: 580px;
+}
+#banner.white .opacityAnmite{
+    width: 121px;
+    height: 40px;
+    background: #ffffff;
+    border-radius: 2px;
+    line-height: 40px;
+    display: block;
+    font-size: 14px;
+    text-align: center;
+    color: #409eff;
+    cursor: pointer;
+}
+/* **************活动导航**************** */
+.activityNav{
+    width: 100%;
+    height: 62px;
+    background: #fff;
+}
+.activityNav .navContent{
+    width: 1140px;
+    margin: 0 auto;
+}
+.activityNav .tabTitle{
+    font-size: 15px;
+    color: #666;
+    line-height: 60px;
+    border-bottom: 2px solid #fff;
+    transition: all .5s;
+    display: block;
+    cursor: pointer;
+    padding: 0 20px;
+}
+.activityNav .tabTitle:hover{
+    border-bottom-color: #409eff;
+    color: #409eff;
+}
+.activityNav .tabItem{
+    position: relative;
+}
+.activityNav .tabItem.active .tabTitle{
+    border-bottom-color: #409eff;
+    color: #409eff;
+}
+.activityNav .nav_tag{
+    position: absolute;
+    display: inline-block;
+    padding: 0 4px;
+    margin: -4px 0 0 2px;
+    height: 20px;
+    line-height: 20px;
+    background: #f7402d;
+    border-radius: 2px;
+    font-size: 12px;
+    color: #fff;
+    font-weight: 700;
+    word-break: keep-all;
+    top: -8px;
+    left: 88px;
+    z-index: 9;
+    pointer-events: none;
+}
+.activityNav .nav_tag::before{
+    display: inline-block;
+    content: "";
+    position: absolute;
+    top: 15px;
+    left: 8px;
+    border-top: 12px solid #f7402d;
+    border-right: 10px solid transparent;
+    -webkit-transform: rotate(
+30deg);
+    -ms-transform: rotate(30deg);
+    transform: rotate(
+30deg);
+    z-index: -1;
+}
+/* ****************活动规则**************** */
+.ruleBox{
+    margin: 80px 0;
+    background: #f1f7fd;
+    border-radius: 8px;
+    width: 100%;
+    padding: 35px;
+}
+.ruleBox .ruleTitle{
+    font-size: 16px;
+    color: #333333;
+}
+.ruleBox .ruleItem{
+    margin-top: 35px;
+}
+.ruleBox .ruleItem .itemTitle{
+    font-size: 14px;
+    color: #333;
+    line-height: 14px;
+    letter-spacing: 1px;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.ruleBox .ruleItem .itemTitle .yuan{
+    display: inline-block;
+    width: 4px;
+    height: 4px;
+    background: #666;
+    margin-right: 5px;
+}
+.ruleBox .ruleItem .itemDesc p{
+    font-size: 14px;
+    color: #757575;
+    line-height: 28px;
+    padding-left: 5px;
+}
+.ruleBox .ruleItem .itemDesc p a{
+    color: #409eff;
+}
+/* *****************企业上云活动推荐****************** */
+.otherAct{
+    margin: 50px 0 40px 0;
+}
+.otherAct .otherLeft{
+    width: 700px;
+    height: 320px;
+    background: url(../img/banner/ac/campus/1.jpg) no-repeat center/cover;
+    padding: 50px 0 0 45px;
+}
+.otherAct .otherLeft .title1{
+    font-size: 36px;
+    color: #fff;
+    align-items: center;
+}
+.otherAct .title1 .borDesc{
+    font-size: 14px;
+    color: #fff;
+    padding: 0 14px;
+    margin-left: 14px;
+    white-space: nowrap;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    line-height: 30px;
+    display: inline-block;
+}
+.otherAct .title2{
+    width: 367px;
+    opacity: 0.83;
+    font-size: 14px;
+    color: #fff;
+    line-height: 25px;
+    margin-bottom: 26px;
+}
+.otherAct .getDis{
+    display: inline-block;
+    font-size: 16px;
+    color: #409eff;
+    padding: 12px 28px;
+    background: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.otherAct .otherRight a{
+    display: block;
+    width: 480px;
+    height: 150px;
+    padding: 46px 0 0 44px;
+}
+.otherAct .otherRight a.newYear{
+    background: url(../img/banner/ac/campus/2.jpg) no-repeat center/cover;
+    margin-bottom: 16px;
+}
+.otherAct .otherRight a.cvmBox{
+    background: url(../img/banner/ac/campus/3.jpg) no-repeat center/cover;
+}
+.otherAct .otherRight .title1{
+    font-size: 26px;
+    color: #ffffff;
+    margin-bottom: 10px;
+    align-items: center;
+}
+.otherAct .otherRight .title1 .borDesc{
+    font-size: 12px;
+    height: 28px;
+    line-height: 26px;
+}
+.otherAct .otherRight .title2{
+    font-size: 14px;
+    color: #ffffff;
+}
+/* ************典型客户案例************ */
+.customerCase .customerItem{
+    width: 150px;
+    height: auto;
+    margin:0 10px 15px 10px;
+    border: 1px solid #ddd;
+    transition: all .5s;
+}
+.customerCase .customerItem:hover{
+    box-shadow: 0px 45px 116px 0px rgba(217,223,239,0.73); 
+}
+.customerCase .customerItem img{
+    max-width: 100%;
+    height: auto;
+}
+/* *************活动页视频******** */
+.videoBox{
+    max-width: 1200px;
+    width: 100%;
+    height: auto; 
+    margin: 30px auto;
+    overflow: hidden;
+    background: #c1ebff;
+    padding: 10px;
+    position: relative;
+}
+.videoBox .videoBody{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.videoBox img{
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+    transition: all .5s;
+}
+.videoBox img:hover{
+    transform: scale(1.01,1.01);
+}
+.videoBox .videoIco{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #fff;
+    font-size: 3.5em;
+    top: calc(50% - 40px);
+    left: calc(50% - 40px);
+    line-height: 2em !important;
+    display: block;
+    position: absolute;
+    box-sizing: inherit;
+    color: #3860F4;
+    overflow: hidden;
+    font-family: VideoJS;
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+    cursor: pointer;
+}
+.videoBox .videoIco::before{
+    content: "\f101";
+    position: absolute;
+    top: -8px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.video-player.vjs-custom-skin .video-js .vjs-big-play-button{
+    width: 80px;
+    height: 80px !important;
+    border-radius: 50%;
+    background-color: #fff;
+}
+.video-js:hover .vjs-big-play-button, .vjs-custom-skin > .video-js .vjs-big-play-button:focus, .vjs-custom-skin > .video-js .vjs-big-play-button:active{
+    opacity: .7;
+}
+.video-player.vjs-custom-skin .video-js{
+    color: #3860F4;
+}
+.el-dialog.videoDialog .el-dialog__header {
+    background-color: #1e242c;
+    border-bottom: none;
+}
+.el-dialog.videoDialog .el-dialog__body {
+    padding: 20px 0 0 0;
+    background-color: #1e242c;
+}
+.el-dialog.videoDialog .el-dialog__headerbtn .el-dialog__close{
+    color: #fefefe;
+}
+/* **********回到顶部按钮******** */
+.backTop{
+	position: fixed;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	color: #409eff;
+	box-shadow: 0 0 6px rgb(0 0 0 / 12%);
+	cursor: pointer;
+	font-size: 25px;
+	align-items: center;
+    justify-content: center;
+	background-color: #fff;
+	right: 10px;
+	bottom: 100px;
+	text-align: center;
+	line-height: 40px;
+}
+/* 活动页未实名弹框 */
+.actRealModule{
+    padding: 30px 20px;
+}
+.actRealModule .actRealTitle{
+    color: #81726F;
+    font-size: 12px;
+    font-weight: 600;
+    padding-left: 10px;
+}
+.actRealModule .actRealDesc{
+    color: #75738B;
+    font-size: 12px;
+    margin-bottom: 40px;
+    padding-left: 10px;
+}
+.actRealModule .actRealFoot{
+    align-items: flex-end;
+}
+.actRealModule .actRealFoot .actRealBtn{
+    padding: 10px 30px;
+    color: #fff;
+    font-size: 16px;
+    margin-right: 10px;
+    background-color: #0077FF;
+    border-radius: 4px;
+}
+.actRealModule .actRealFoot .BtnDesc{
+    font-size: 12px;
+}

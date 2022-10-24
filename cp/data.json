@@ -1,0 +1,156 @@
+{
+    "regional": {
+        "TzTelecom": {
+            "name": "台州电信"
+        },
+        "TzBGP": {
+            "name": "台州BGP"
+        },
+        "HK163": {
+            "name": "香港163"
+        }
+    },
+    "package": {
+        "TzTelecom": {
+            "1": {
+                "name": "基础版",
+                "month_money": "5333",
+                "years_money": "63000",
+                "ddos_traffic": "50G",
+                "traffic":"20000IP/时",
+                "domain":"2",
+                "custom_waf":"支持"
+            },
+            "2": {
+                "name": "专业版",
+                "month_money": "13000",
+                "years_money": "150000",
+                "ddos_traffic": "100G",
+                "traffic":"20000IP/时",
+                "domain":"5",
+                "custom_waf":"支持"
+            },
+            "3": {
+                "name": "企业版",
+                "month_money": "23500",
+                "years_money": "253800",
+                "ddos_traffic": "200G",
+                "traffic":"20000IP/时",
+                "domain":"5",
+                "custom_waf":"支持"
+            },
+            "4": {
+                "name": "商务版",
+                "month_money": "30000",
+                "years_money": "330000",
+                "ddos_traffic": "300G",
+                "traffic":"50000IP/时",
+                "domain":"10",
+                "custom_waf":"支持"
+            },
+            "5": {
+                "name": "旗舰版",
+                "month_money": "46000",
+                "years_money": "524400",
+                "ddos_traffic": "400G",
+                "traffic":"60000IP/时",
+                "domain":"10",
+                "custom_waf":"支持"
+            }
+        },
+        "TzBGP": {
+            "1": {
+                "name": "基础版",
+                "month_money": "6333",
+                "years_money": "75000",
+                "ddos_traffic": "50G",
+                "traffic":"20000IP/时",
+                "domain":"2",
+                "custom_waf":"支持"
+            },
+            "2": {
+                "name": "专业版",
+                "month_money": "15000",
+                "years_money": "180000",
+                "ddos_traffic": "100G",
+                "traffic":"20000IP/时",
+                "domain":"5",
+                "custom_waf":"支持"
+            },
+            "3": {
+                "name": "企业版",
+                "month_money": "25550",
+                "years_money": "29000",
+                "ddos_traffic": "200G",
+                "traffic":"20000IP/时",
+                "domain":"5",
+                "custom_waf":"支持"
+            },
+            "4": {
+                "name": "商务版",
+                "month_money": "33000",
+                "years_money": "380000",
+                "ddos_traffic": "300G",
+                "traffic":"50000IP/时",
+                "domain":"10",
+                "custom_waf":"支持"
+            },
+            "5": {
+                "name": "旗舰版",
+                "month_money": "49000",
+                "years_money": "560000",
+                "ddos_traffic": "400G",
+                "traffic":"60000IP/时",
+                "domain":"10",
+                "custom_waf":"支持"
+            }
+        },
+        "HK163": {
+            "1": {
+                "name": "基础版",
+                "month_money": "1300",
+                "years_money": "15000",
+                "ddos_traffic": "5G",
+                "traffic":"3000IP/时",
+                "domain":"1",
+                "custom_waf":"支持"
+            },
+            "2": {
+                "name": "专业版",
+                "month_money": "2500",
+                "years_money": "28000",
+                "ddos_traffic": "10G",
+                "traffic":"10000IP/时",
+                "domain":"1",
+                "custom_waf":"支持"
+            },
+            "3": {
+                "name": "企业版",
+                "month_money": "6000",
+                "years_money": "65000",
+                "ddos_traffic": "20G",
+                "traffic":"10000IP/时",
+                "domain":"无限",
+                "custom_waf":"支持"
+            },
+            "4": {
+                "name": "商务版",
+                "month_money": "0",
+                "years_money": "0",
+                "ddos_traffic": "0",
+                "traffic":"0",
+                "domain":"0",
+                "custom_waf":"支持"
+            },
+            "5": {
+                "name": "旗舰版",
+                "month_money": "0",
+                "years_money": "0",
+                "ddos_traffic": "0",
+                "traffic":"无限制",
+                "domain":"0",
+                "custom_waf":"支持"
+            }
+        }
+    }
+}

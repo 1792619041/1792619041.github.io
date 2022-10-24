@@ -1,0 +1,327 @@
+.logo {
+   
+    background: #3860f4;
+}
+
+
+ul,li{
+	padding:0;
+	margin:0;
+	list-style:none
+}
+a:hover{
+	text-decoration: none !important;
+}
+
+.logo{
+
+}
+.logocont{
+	width: 1200px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.logo_left{
+	display: flex;
+}
+.logo-menu{
+	position: relative;
+	width: 20px;
+	height: 60px;
+	cursor: pointer;
+}
+.logo-menu img{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto 0;
+}
+.logos{
+	position: relative;
+	height: 60px;
+	cursor: pointer;
+}
+.logos img {
+    height: 40px;
+    position: absolute;
+    top: -30px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin: auto 0px;
+}
+.logo_left ul{
+	margin-left: 200px;
+}
+.logo_left ul li{
+	margin: 0 24px;
+	height: 60px;
+	float: left;
+	text-align: center;
+}
+.logo_left ul li p{
+	font-size: 14px;
+	cursor: pointer;
+	margin: 0;
+}
+.logo_left ul li p a{
+	text-decoration: none;
+	color: rgba(255,255,255,0.8);
+	border-bottom: 3px solid #3860f4;
+	height: 55px;
+	line-height: 65px;
+	display: inline-block;
+}
+.logo_left ul li p a:hover{
+	color: #fff;
+	border-color: #fff;
+}
+
+.logo_rights{
+	display: flex;
+}
+.earths{
+	position: relative;
+}
+.earth{
+	display: flex;
+	cursor: pointer;
+	margin-right: 35px;
+}
+.earth span{
+	font-size: 14px;
+	color: rgba(255,255,255,0.8);
+	line-height: 65px;
+	margin-left: 10px;
+}
+.earth span:hover{
+	color: #fff;
+}
+.selectxia{
+	position: relative;
+	width: 12px;
+	margin-left: 5px;
+}
+.selectxia img{
+	width: 12px;
+	height: 6px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto 0;
+}
+.consoles a{
+	text-decoration: none;
+	outline: none;
+	font-size: 14px;
+	color: rgba(255,255,255,0.8);
+	border-bottom: 3px solid #3860f4;
+	height: 55px;
+	line-height: 65px;
+	margin-right: 30px;
+	display: inline-block;
+}
+.consoles a:hover{
+	color: #fff;
+	border-color: #fff;
+}
+
+
+.denglu a{
+	text-decoration: none;
+	outline: none;
+	font-size: 14px;
+	color: rgba(255,255,255,0.8);
+	border-bottom: 3px solid #3860f4;
+	height: 55px;
+	line-height: 65px;
+	display: inline-block;
+	margin-right: 15px;
+}
+
+.denglu a:hover{
+	color: #fff;
+	border-color: #fff;
+}
+.loginbtns{
+	font-size: 14px;
+	color: #fff;
+	margin: 0 20px;
+	cursor: pointer;
+}
+.loginbtns img{
+	width: 16px;
+	height: 16px;
+	margin-right: 10px;
+}
+.zhuce a{
+	text-decoration: none;
+	outline: none;
+}
+.registerbtn{
+	font-size: 14px;
+	color: #3860f4;
+	padding: 5px 20px;
+	border: 1px solid #fff;
+	margin: 0 !important;
+	cursor: pointer;
+	background: #fff;
+	border-radius: 2px;
+}
+.head_menu{
+	margin: auto 0;
+	margin-right: 30px;
+	display: none;
+	cursor: pointer;
+}
+.head_menu img{
+	height: 17px;
+}
+
+.denglus{
+	position: relative;
+}
+.menu{
+	display: none;
+	position: absolute;
+	top: 55px;
+	left: -100px;
+	width: 220px;
+	background: #fff;
+	box-shadow: 0px 0px 10px 5px rgba(104,104,104,0.1);
+}
+.menu-top{
+	border-bottom: 1px solid #dcdcdc;
+	padding-top: 10px;
+}
+.menu a{
+	text-decoration: none;
+	font-size: 14px;
+	color: #fff;
+	outline: none;
+}
+.menu h3{
+	font-size: 14px;
+	color: #fff;
+	margin: 0;
+	line-height: 24px;
+	padding: 0 20px;
+}
+.menu p{
+	font-size: 14px;
+	color: #fff;
+	margin: 0;
+	line-height: 40px;
+	padding: 0 20px;
+}
+.menu p:hover{
+	color: #FE715F;
+}
+.menu b{
+	font-size: 14px;
+	color: #fff;
+}
+.menu img{
+	margin-top: -5px;
+	margin-right: 5px;
+}
+.userid{
+	margin-bottom: 10px !important;
+	display: flex;
+	justify-content: space-between;
+}
+.myorder{
+	padding-top: 10px !important;
+}
+.outlogin{
+	display: flex;
+	justify-content: space-between;
+}
+.language{
+	display: none;
+	position: absolute;
+	top: 55px;
+	left: -40px;
+	width: 180px;
+	height: 100px;
+	background: #fff;
+	z-index: 99;
+	border-radius: 4px;
+	box-shadow: 0px 0px 10px 5px rgba(104,104,104,0.1);
+}
+.language p{
+	margin-bottom: 0;
+	height: 50px;
+	line-height: 50px;
+	font-size: 14px;
+	color: #333;
+	text-align: center;
+	cursor: pointer;
+}
+.select{
+	color: #333;
+}
+.chineseselect{
+	color: #3860f4 !important;
+}
+
+.headxia {
+    width: 100%;
+    height: 500px;
+    background: #fff;
+    z-index: 9;
+    display: none;
+    position: fixed;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(117,117,117,.3);
+}
+.headxias{
+	height: 100%;
+	padding: 20px;
+	overflow: hidden;
+}
+.xiaearth{
+	position: relative;
+}
+.xiaearths{
+	display: flex;
+	cursor: pointer;
+	margin-right: 35px;
+}
+.xiaearths span{
+	font-size: 14px;
+	color: #333;
+	line-height: 40px;
+}
+.xiali{
+	height: 40px;
+	line-height: 40px;
+	width: calc(100% - 20px);
+	display: block;
+	font-size: 14px;
+	padding-left: 20px;
+	border-bottom: 1px solid #eaeaea;
+}
+.xiali:hover{
+	/* font-size: 15px; */
+	/* font-weight: 600; */
+	color: #3860f4;
+}
+.xialan{
+	width: 100%;
+}
+.xialan p{
+	height: 40px;
+	line-height: 40px;
+	padding-left: 15px;
+}
+.move{
+	display: none;
+}
+
+

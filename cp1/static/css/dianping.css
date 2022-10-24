@@ -1,0 +1,141 @@
+/* ****************使用者举例****************** */
+.citingBox{
+    background: url(../../static/images/104.jpg) no-repeat center/cover;
+    width: 100%;
+    padding:46px 0 100px 0;
+}
+.citingBox .linkBox{
+    margin: 40px 0 50px 0;
+    text-align: center;
+}
+.citingBox .linkBox a{
+    background: #fff;
+    border: 1px solid #409eff;
+    padding: 13px 38px;
+    font-size: 14px;
+    display: inline-block;
+    color: #409eff;
+    line-height: 12px;
+    transition: all .5s;
+}
+.citingBox .linkBox a:nth-of-type(1){
+    background: #409eff;
+    color: #fff;
+}
+.dianping{
+    margin: 0 auto;
+    width: 1024px;
+}
+.dianping .expBox{
+    position: relative;
+    width: 100%;
+    height: 276px;
+}
+.dianping .expBox .owner{
+    height: 276px;
+    background: #fff;
+    box-shadow: 0px 8px 35px 0px rgba(101,115,151,0.14); 
+    padding: 40px 32px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    opacity: 0;
+    transition: all 2s;
+}
+.dianping .expBox .owner.active{
+    opacity: 1;
+    z-index: 15;
+}
+.dianping .expBox .owner.active2{
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    z-index: 8;
+}
+.dianping .expBox .owner.active3{
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    z-index: 8;
+}
+.dianping .expBox .owner .ownerTitle{
+    height: 34px;
+    font-size: 22px;
+    line-height: 34px;
+}
+.dianping .expBox .owner .ownerTitle .title1{
+    color: #409eff;
+}
+.dianping .expBox .owner .owericon{
+    margin: 20px 0 30px 0;
+}
+.dianping .expBox .owner .owerDesc{
+    font-weight: 400;
+    height: 96px;
+    color: rgba(0,0,0,0.5);
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 45px;
+    text-align: justify;
+}
+.dianping .expBox .owner .owerDesc a{
+    color: rgba(0,0,0,0.5);
+    cursor: pointer;
+    transition: all .5s;
+}
+.dianping .expBox .owner .owerDesc a:hover{
+    color: #000;
+}
+.dianping .expBox .shadeBox1{
+    position: absolute;
+    left: 31px;
+    bottom: -21px;
+    z-index: 5;
+    width: 962px;
+    height: 20px;
+    background: #fff;
+    box-shadow: 0px 7px 35px 0px rgba(101,115,151,0.25); 
+}
+.dianping .expBox .shadeBox2{
+    position: absolute;
+    left: 63px;
+    bottom: -42px;
+    z-index: 1;
+    width: 908px;
+    height: 20px;
+    background: #fff;
+    box-shadow: 0px 7px 35px 0px rgba(101,115,151,0.25); 
+}
+/* .dianping .expBox .arrows{
+    position: absolute;
+    width: 100%;
+    top:180px;
+    left: 0;
+    z-index: 100;
+} */
+.dianping .expBox .arrowsItem{
+    background: #ffffff;
+    border-radius: 50%;
+    box-shadow: 10px 10px 20px 0px rgba(0,0,0,0.3); 
+    cursor: pointer;
+    width: 48px;
+    height: 48px;
+    opacity: .6;
+    transition: all .5s;
+    position: absolute;
+    top:114px;
+    z-index: 100;
+    text-align: center;
+}
+.dianping .expBox  .arrowsItem:hover{
+    opacity: 1;
+}
+.dianping .expBox  .arrowsItem i{
+    font-size:20px ;
+    line-height: 48px;
+}
+.dianping .expBox  .arrowsLeft{
+    left: -24px;
+}
+.dianping .expBox  .arrowsRight{
+    right: -24px;
+}

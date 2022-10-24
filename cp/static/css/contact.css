@@ -1,0 +1,171 @@
+/* 头部 */
+.logo{
+	background: rgba(255,255,255)!important;
+	box-shadow: 0 0 7px rgba( 23, 71, 152 ,0.2);
+}
+.logo_left ul li p a{
+	color: #333;
+	border-bottom: 3px solid rgba(255,255,255,0);
+}
+.logo_left ul li p a:hover{
+	color: #3860f4;
+	border-color: #3860f4;
+}
+.earth span{
+	color: #333;
+}
+.consoles a{
+	color: #333;
+}
+.loginbtn{
+	color: #333;
+}
+.registerbtn{
+	border: 1px solid #3860f4;
+	background: #3860f4;
+	color: #fff;
+}
+.consoles a{
+	color: #333;
+	border-bottom: 3px solid rgba(255,255,255,0);
+}
+.consoles a:hover{
+	color: #3860f4;
+	border-color: #3860f4;
+}
+.denglu a{
+	color: #333;
+	border-bottom: 3px solid rgba(255,255,255,0);
+}
+.denglu a:hover{
+	color: #3860f4;
+	border-color: #3860f4;
+}
+.earth span:hover{
+	color: #333;
+}
+
+
+
+/* 内容 */
+body{
+	position: relative;
+	background: #f5f7f9;
+}
+.content{
+	width: 100%;
+}
+.register{
+	width: 60%;
+	background: #FFFFFF;
+	margin: 0 auto;
+}
+.page-main {
+    padding-top: 0;
+}
+.topbanner{
+    height: 600px;
+    background: url('../image/contact_img.png') no-repeat center;
+}
+.topintro{
+    display: none;
+}
+
+
+/* 联系方式 */
+.advant{
+    margin-top: 25px;
+}
+.advants{
+
+}
+.advants>h1{
+    text-align: center;
+}
+.contact_us{
+    display: flex;
+    justify-content: center;
+}
+.contact_us>div{
+    margin: 35px 70px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.contact_us>div>div{
+    border: 2px solid #2878ff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 88px;
+    height: 88px;
+}
+.contact_us>div>p{
+    font-size: 18px;
+    margin-top: 15px;
+}
+.contact_us>div>a{
+    background: #2878ff;
+    color: #fff;
+    padding: 4px 15px;
+    border-radius: 4px;
+    margin-top: 15px;
+}
+
+/* 立即体验 */
+.leam{
+	height: 250px;
+	width: 100%;
+}
+.leams{
+	height: 250px;
+	width: 100%;
+	background: url(https://www.kuaikuaicdn.com/static/index/img/leambg.png) no-repeat 50% 100%;
+	background-clip: content-box;
+	text-align: center;
+}
+.lileam{
+	display: inline-block;
+	margin: 0 auto;
+	padding-top: 150px;
+}
+
+
+
+.hbiao{
+	width: 40px!important;
+	animation: hborder 1s ;
+}
+@keyframes hborder{
+	from {width: 0px;}
+	to {width: 40px;}
+}
+
+
+@media screen and (max-width: 1033px){
+    .topbanner{
+        background: none;
+        overflow: hidden;
+    }
+    .topintro{
+        display: block;
+        
+    }
+    .topintro>img{
+       width: 100%;
+    }
+    .contact_us{
+        flex-wrap: wrap;
+    }
+    .contact_us>div{
+        width: 180px;
+    }
+}
+@media screen and (max-width: 900px){
+    .topbanner{
+        height: auto;
+    }
+}
+

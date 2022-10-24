@@ -1,0 +1,490 @@
+body{
+	position: relative;
+	background: #f5f7f9;
+}
+.content{
+	width: 100%;
+}
+.register{
+	width: 60%;
+	background: #FFFFFF;
+	margin: 0 auto;
+}
+
+/* 轮播 */
+.topbanner{
+	width: 100%;
+	background: #3860f4;
+	height: 450px;
+}
+.topintro{
+	width: 1200px;
+	margin: 0 auto;
+	display: flex;
+}
+.topin_left{
+	width: 45%;
+}
+.left_team{
+	font-size: 40px;
+	color: #fff;
+	margin-top: 90px;
+	font-weight: bold;
+}
+.leftintro{
+	width: 90%;
+	font-size: 14px;
+	color: #fff;
+	margin-top: 40px;
+	line-height: 25px;
+}
+.topin_right{
+	text-align: center;
+}
+.topin_right img{
+	margin-top: 60px;
+}
+
+
+/* 优势 */
+.advant{
+	width: 100%;
+	background: #fff;
+	padding-bottom: 80px;
+}
+.advants{
+	width: 1200px;
+	margin: 0 auto;
+}
+.advteam{
+	font-size: 26px;
+	color: #252b3a;
+	padding-top: 100px;
+	text-align: center;
+	font-weight: bold;
+}
+.advant_fir{
+	padding-top: 80px;
+	padding-bottom: 40px;
+	display: flex;
+	justify-content: space-between;
+}
+.firAI{
+	display: flex;
+	width: 26%;
+}
+.firAI_left{
+	margin-right: 25px;
+}
+.AIteam{
+	font-size: 18px;
+	color: #252b3a;
+	font-weight: bold;
+}
+.AIintro{
+	font-size: 14px;
+	color: #999;
+	padding-top: 20px;
+	line-height: 25px;
+}
+
+
+/* 应用场景 */
+.scene{
+	width: 100%;
+    padding-bottom: 150px;
+    background: url('../image/application_scene.png') no-repeat center;
+}
+.scenes{
+	width: 1200px;
+    margin: 0 auto;
+}
+.sceteam{
+	font-size: 26px;
+	color: #252b3a;
+	font-weight: bold;
+	padding-top: 100px;
+	text-align: center;
+}
+.scesel{
+	width: 34%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	padding-top: 60px;
+}
+.scesel p{
+	cursor: pointer;
+	font-size: 18px;
+	color: #888;
+}
+.scesel h4{
+	width: 0;
+	height: 4px;
+	background: #3860f4;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+.sceintro{
+	padding: 20px;
+	background: #fff;
+	box-shadow:  0px 0px 20px 0px rgba( 157, 157, 157 ,0.3);
+	margin-top: 65px;
+	display: flex;
+}
+.sceintro_left{
+	height: 500px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 60%;
+	border: 2px solid #eaeaea;
+}
+.sceintro_right1{
+	width: 40%;
+	padding-left: 50px;
+}
+.sceintro_right2{
+	display: none;
+	width: 40%;
+	padding-left: 50px;
+}
+.accetop{
+	font-size: 20px;
+	color: #333;
+	padding-top: 40px;
+}
+.acceintro{
+	font-size: 14px;
+	color: #999;
+	padding-top: 10px;
+}
+.adantitle{
+	font-size: 20px;
+	color: #333;
+	padding-top: 50px;
+}
+.advanthead{
+	display: flex;
+	height: 20px;
+	margin-top: 25px;
+}
+.advanthead p{
+	font-size: 14px;
+	color: #333;
+	line-height: 20px;
+	padding-left: 8px;
+}
+.advanthead span{
+	display: inline-block;
+	width: 5px;
+	height: 2px;
+	background: #333;
+	margin-top: 9px;
+}
+.adheadintro{
+	font-size: 14px;
+	color: #999;
+	padding-top: 10px;
+}
+
+
+/* 加速包套餐 */
+.meal{
+	width: 100%;
+	background: #fff;
+}
+.mealteam{
+	font-size: 26px;
+	color: #252b3a;
+	padding-top: 100px;
+	text-align: center;
+	font-weight: bold;
+}
+.mealtop{
+	margin-top: 40px;
+	background: url(../image/mealban.png) no-repeat 50% 100%;
+	background-clip: content-box;
+	width: 100%;
+	height: 60px;
+}
+.mealtops{
+	width: 1200px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+}
+.mealtopli{
+	display: flex;
+}
+.mealtopli span{
+	display: block;
+	width: 4px;
+	height: 4px;
+	border-radius: 50%;
+	margin-top: 28px;
+	background: #fff;
+}
+.mealtopli p{
+	font-size: 12px;
+	color: #fff;
+	line-height: 60px;
+	margin-left: 5px;
+}
+.meals{
+	width: 1200px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 60px;
+	padding-bottom: 100px;
+}
+.setmeal{
+	width: 23%;
+	background: #fff;
+	box-shadow: 0px 0px 20px 0px rgba( 157, 157, 157 ,0.3);
+}
+.setmeal:hover{
+	margin-top: -2px;
+	box-shadow: 0px 0px 20px 0px rgba( 32, 97, 208 ,0.4);
+	
+}
+.setmeals{
+	padding: 40px;
+}
+.setmealteam{
+	display: flex;
+	padding: 28px 0;
+	border-bottom: 1px solid #eaeaea;
+}
+.setmealteam span{
+	font-size: 20px;
+	color: #252b3a;
+	font-weight: bold;
+	line-height: 20px;
+}
+.setmealteam p{
+	font-size: 14px;
+	color: #666;
+	line-height: 20px;
+	padding-left: 10px;
+}
+.setmealadvant{
+	display: flex;
+	margin-top: 30px;
+	height: 25px;
+}
+.setadimg{
+	width: 60px;
+	height: 26px;
+	border-radius: 2px;
+}
+.setmealadvant span{
+	font-size: 24px;
+	color: #FE715F;
+	padding-left: 30px;
+	line-height: 25px;
+}
+.setmealadvant p{
+	font-size: 14px;
+	color: #FE715F;
+	line-height: 25px;
+	padding-left: 5px;
+}
+.setmealprice{
+	display: flex;
+	margin-top: 20px;
+	padding-bottom: 30px;
+	border-bottom: 1px solid #EAEAEA;
+}
+.setmealprice span{
+	font-size: 14px;
+	color: #333;
+}
+.setmealprice p{
+	font-size: 14px;
+	color: #5981f8;
+	padding-left: 30px;
+	
+}
+.mealbtn{
+	width: 100%;
+	height: 40px;
+	background: linear-gradient( -90deg, rgb(255,189,119) 0%, rgb(255,207,135) 100%);
+	line-height: 40px;
+	text-align: center;
+	font-size: 16px;
+	color: #211201;
+	border-radius: 3px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	cursor: pointer;
+}
+.mealbtn:hover{
+	background: rgb(255,189,119);
+}
+
+/* 体验步骤 */
+.expertip{
+	width: 100%;
+	padding-bottom: 90px;
+}
+.expertips{
+	width: 1200px;
+	margin: 0 auto;
+}
+.expeream{
+	font-size: 26px;
+	color: #252b3a;
+	padding-top: 100px;
+	font-weight: bold;
+	text-align: center;
+}
+.experul{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 70px;
+	height: 60px;
+}
+#exprebo{
+	display: none;
+}
+.experli{
+	display: flex;
+	height: 60px;
+	cursor: pointer;
+}
+.experimg{
+	width: 90px;
+	height: 60px;
+}
+.experli p{
+	font-size: 16px;
+	color: #999;
+	line-height: 40px;
+}
+.experintro{
+	background: #fff;
+	box-shadow: 0px 0px 20px 0px rgba( 157, 157, 157 ,0.3);
+	margin-top: 60px;
+	padding: 60px;
+	/* height: 300px; */
+}
+.experintro>div{
+	display: none;
+	padding-left: 60px;
+}
+.experintro div:nth-child(1){
+	display: block;
+}
+.extile{
+	font-size: 16px;
+	color: #333;
+	line-height: 25px;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+.extiles{
+	font-size: 16px;
+	color: #333;
+	line-height: 25px;
+	margin-top: 35px;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+.extip{
+	font-size: 15px;
+	color: #666;
+	line-height: 28px;
+}
+
+
+/* 帮助文档 */
+.helpdoc{
+	width: 100%;
+	background: #fff;
+}
+.helpdocs{
+	width: 1200px;
+	margin: 0 auto;
+	padding-bottom: 40px;
+}
+.helpteam{
+	font-size: 26px;
+	color: #252b3a;
+	padding-top: 100px;
+	font-weight: bold;
+	text-align: center;
+}
+.helpul{
+	margin-top: 65px;
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 65px;
+}
+.helpli{
+	width: 22%;
+}
+.helptitle{
+	font-size: 16px;
+	color: #252b3a;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #EAEAEA;
+	margin-bottom: 15px;
+}
+.helpintro a{
+	line-height: 30px;
+	font-size: 14px;
+	color: #888;
+	text-decoration: none;
+	outline: none;
+}
+.helpmore a{
+	display: block;
+	width: 88px;
+	height: 28px;
+	line-height: 28px;
+	text-align: center;
+	font-size: 14px;
+	color: #3860f4;
+	border: 1px solid #3860f4;
+	border-radius: 2px;
+	text-decoration: none;
+	outline: none;
+	margin: 0 auto;
+}
+
+
+/* 立即体验 */
+.leam{
+	height: 250px;
+	width: 100%;
+	background: #fff;
+}
+.leams{
+	height: 250px;
+	width: 100%;
+	background: url(https://www.kuaikuaicdn.com/static/index/img/leambg.png) no-repeat 50% 100%;
+	background-clip: content-box;
+	text-align: center;
+}
+.lileam{
+	display: inline-block;
+	margin: 0 auto;
+	padding-top: 150px;
+}
+
+
+
+.hbiao{
+	width: 40px!important;
+	animation: hborder .5s ;
+}
+
+@keyframes hborder{
+	from {width: 0px;}
+	to {width: 40px;}
+}
+
+
+
